@@ -21,13 +21,14 @@ class _RecipeDetailsState extends State<PlaceDetails> {
     var screenWidth = MediaQuery.sizeOf(context).width;
 
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 29, 117, 56), // Better contrast
+      backgroundColor:
+          const Color.fromARGB(255, 29, 117, 56), // Better contrast
       appBar: AppBar(
         title: Text(
           "Place Details",
           style: GoogleFonts.acme(fontSize: 22, fontWeight: FontWeight.bold),
         ),
-        backgroundColor: Color.fromARGB(255, 29, 117, 56),
+        backgroundColor: const Color.fromARGB(255, 29, 117, 56),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -52,7 +53,7 @@ class _RecipeDetailsState extends State<PlaceDetails> {
             Container(
               height: 100,
               width: screenWidth,
-              color: Color.fromARGB(255, 71, 191, 95),
+              color: const Color.fromARGB(255, 71, 191, 95),
               alignment: Alignment.center,
               child: Text(
                 widget.placeName,

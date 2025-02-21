@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_assgnment_5/constant.dart';
-import 'package:flutter_assgnment_5/recipe_details.dart';
+import 'package:flutter_assgnment_5/place_details.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class HomePage extends StatelessWidget {
@@ -13,7 +13,8 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text(
           "Home",
-          style: GoogleFonts.acme(color: Color.fromARGB(255, 74, 143, 82)),
+          style:
+              GoogleFonts.acme(color: const Color.fromARGB(255, 74, 143, 82)),
         ),
       ),
       body: GridView.count(
@@ -40,7 +41,7 @@ class HomePage extends StatelessWidget {
                   decoration: BoxDecoration(
                       shape: BoxShape.rectangle,
                       borderRadius: BorderRadius.circular(10),
-                      color: Color.fromARGB(255, 94, 196, 120)),
+                      color: const Color.fromARGB(255, 94, 196, 120)),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
@@ -84,7 +85,7 @@ class HomePage extends StatelessWidget {
                   decoration: BoxDecoration(
                       shape: BoxShape.rectangle,
                       borderRadius: BorderRadius.circular(10),
-                      color: Color.fromARGB(255, 86, 171, 96)),
+                      color: const Color.fromARGB(255, 86, 171, 96)),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
@@ -128,7 +129,7 @@ class HomePage extends StatelessWidget {
                   decoration: BoxDecoration(
                       shape: BoxShape.rectangle,
                       borderRadius: BorderRadius.circular(10),
-                      color: Color.fromARGB(255, 84, 160, 94)),
+                      color: const Color.fromARGB(255, 84, 160, 94)),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
@@ -172,7 +173,7 @@ class HomePage extends StatelessWidget {
                   decoration: BoxDecoration(
                       shape: BoxShape.rectangle,
                       borderRadius: BorderRadius.circular(10),
-                      color: Color.fromARGB(255, 75, 156, 76)),
+                      color: const Color.fromARGB(255, 75, 156, 76)),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [

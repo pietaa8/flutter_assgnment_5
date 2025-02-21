@@ -15,7 +15,7 @@ class _SplashScreenState extends State<SplashScreen> {
   startTimer() async {
     Timer(const Duration(seconds: 5), () {
       Navigator.push(
-          context, MaterialPageRoute(builder: (context) => HomePage()));
+          context, MaterialPageRoute(builder: (context) => const HomePage()));
     });
   }
 
@@ -41,7 +41,7 @@ class _SplashScreenState extends State<SplashScreen> {
               style: GoogleFonts.acme(
                   fontSize: 30,
                   fontWeight: FontWeight.bold,
-                  color: Color.fromARGB(255, 60, 161, 83)),
+                  color: const Color.fromARGB(255, 60, 161, 83)),
             ),
             const SizedBox(
               height: 10,
